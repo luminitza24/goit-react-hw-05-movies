@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/922.dc671caf.chunk.css","mappings":"AAAA,iBAEI,WAAY,CADZ,WAEF","sources":["components/MovieDetails/MovieDetails.css"],"sourcesContent":[".custom-img-size {\n    width: 350px;  \n    height: auto; \n  }  \n  "],"names":[],"sourceRoot":""}
