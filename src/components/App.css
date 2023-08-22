@@ -1,9 +1,14 @@
 .container {
+  max-width: 1200px;
+  margin: 0 auto;
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  font-size: 33px;
+  flex-wrap: wrap;
+  font-size: 20px;
   color: '#010101';
+}
+.image {
+  width: 350px;
+  height: auto;
 }

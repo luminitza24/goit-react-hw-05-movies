@@ -24,6 +24,7 @@ const Home = () => {
   }, []);
   return (
     <div>
+      {<h1> Trending movies today </h1>}
       {isLoading && <Loading />}
       {hasError && <Error />}
       {movies.length > 0 && <MovieList movies={movies} />}

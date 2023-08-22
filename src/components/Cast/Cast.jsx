@@ -53,8 +53,8 @@ const Cast = () => {
                   alt={`${actor.name}`}
                 />
               )}
-              <p className="actor-name">{actor.name}</p>
-              <p className="character">
+              <p className="actor-info">{actor.name}</p>
+              <p className="actor-info">
                 Character:
                 <span className=" text-info">{actor.character}</span>
               </p>

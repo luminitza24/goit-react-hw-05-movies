@@ -1,0 +1,31 @@
+.list-group {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.movie-link {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.movie-card {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.list-group-item {
+  flex-basis: calc((100% / 4) - 120px);
+}
+
+.input-group {
+  display: flex;
+}
+
+.form-control {
+  width: 400px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 30px;
+}

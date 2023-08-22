@@ -11,6 +11,7 @@ import { Error } from '../common/Error';
 import { fetchMovie } from '../Requests';
 import './MovieDetails.css';
 import Notiflix from 'notiflix';
+import '../common/Header.css';
 
 const MovieItem = () => {
   const { movieId } = useParams();
@@ -86,7 +87,7 @@ const MovieItem = () => {
                 <ul className="nav">
                   <li>
                     <NavLink
-                      className="nav-link"
+                      className="nav-link-info"
                       to="cast"
                       state={{ from: location?.state?.from ?? '/' }}
                     >
@@ -96,7 +97,7 @@ const MovieItem = () => {
                   </li>
                   <li>
                     <NavLink
-                      className="nav-link"
+                      className="nav-link-info"
                       to="reviews"
                       state={{ from: location?.state?.from ?? '/' }}
                     >

@@ -4,7 +4,7 @@ import { Search } from '../Search';
 import Notiflix from 'notiflix';
 
 const Movies = () => {
-  const inputRef = useRef(); 
+  const inputRef = useRef();
   const [searchParams, setSearchParams] = useSearchParams();
 
   const handleSubmit = e => {
@@ -18,23 +18,19 @@ const Movies = () => {
   };
   return (
     <div className="container">
-      <form
-        onSubmit={handleSubmit}
-        className="form"
-        role="search"
-      >
-        <div className="container d-flex justify-content-center">
-          <div className="input-group w-100 w-md-50 w-lg-25">
+      <form onSubmit={handleSubmit} className="form" role="search">
+        <div className="container-form">
+          <div className="input-group">
             <input
               ref={inputRef}
               type="search"
-              className="form-control rounded mt-3"
+              className="form-control"
               placeholder="Search movie"
               aria-label="Search"
               aria-describedby="search-addon"
             />
             <button type="submit" className="button">
-              search
+              Search
             </button>
           </div>
         </div>

@@ -1,4 +1,15 @@
-.image{
-    width:200px;
-    height:300px;
+.actor-cont {
+  margin-left: 30px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.actor-info {
+  font-size: 18px;
+  font-weight: 700px;
+}
+
+.text-info {
+  margin-left: 10px;
+  font-style: italic;
 }

@@ -1,5 +1,25 @@
-.custom-img-size {
-    width: 350px;  
-    height: auto; 
-  }  
-  
+.button {
+  text-decoration: none;
+  background-color: darkorchid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  color: aliceblue;
+  border-radius: 10px;
+  margin: 30px 30px;
+  font-size: 18px;
+}
+.nav-link-info {
+  color: black;
+  text-decoration: none;
+}
+.nav-link-info:active,
+.nav-link-info:hover {
+  color: blueviolet;
+  cursor: -moz-grabbing;
+}
+.nav {
+  list-style-type: none;
+}

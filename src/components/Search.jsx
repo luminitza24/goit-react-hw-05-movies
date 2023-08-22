@@ -43,7 +43,7 @@ export const Search = () => {
           The search term is: <span className="text-info">{searchTerm}</span>
         </h6>
       )}
-      {movies.length > 0 && <MovieList movies={movies} showTitle={false} />}
+      {movies.length > 0 && <MovieList movies={movies} />}
     </>
   );
 };

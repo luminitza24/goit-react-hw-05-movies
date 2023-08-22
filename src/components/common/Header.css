@@ -1,0 +1,12 @@
+.navbar {
+  background-color: grey;
+  align-items: center;
+  height: 100px;
+}
+.nav-link {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+.nav-link:active {
+  color: red;
+}
